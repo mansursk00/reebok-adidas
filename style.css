@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Open Sans", sans-serif;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 974px;
+    min-width: 375px;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 33px 0 32px;
+    border-bottom: 1px solid #828282;
+  }
+  .menu a {
+    color: #828282;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .menu a:hover {
+    color: #000;
+  }
+  .head_bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .logo {
+    text-decoration: none;
+    color: #000;
+  }
+  h1 {
+    width: 140px;
+    font-size: 47px;
+    font-weight: 700;
+  }
+  .head_txt {
+    width: 143px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.head_btn {
+    background: none;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.head_btns {
+    transform: translate(25px, -22px) rotate(270deg);
+}
+.grey {
+    background: #f6f6f6;}
+  section {
+    padding: 100px 0;
+  }
+  .tit {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 18px;
+  }
+  .about_txt p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.skills_desc{
+    text-align: center;
+    margin-bottom: 84px;
+}
+.skills_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.skills_img{
+    width: 89px;
+    margin: 0 auto 24px;
+}
+.skills_name{
+    text-align: center;
+    color: #828282;
+    font-weight: 700;
+    width: 100px;
+    margin: 0 auto 41px;
+}
+.portfolio_img{
+    margin-bottom: 45px;
+}
+.portfolio_txt{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.portfolio_block{
+    margin-bottom: 99px;
+}
+.portfolio_block:last-child{
+    margin-bottom: 0;
+}
+footer{
+    text-align: center;
+    padding: 114px 123px;
+}
+
+.foot-desc{
+    text-align: center;
+    width: 180px;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 auto 30px;
+}
+.foot-btn {
+    background-color: black;     
+    color: white; 
+    font-size: 16px;   
+    padding: 10px 30px;     
+    border: none;   
+    border-radius: 30px;
+    cursor: pointer;  
+    text-align: center; 
+    display: block;
+    width: 170px;
+    margin: 0 auto 86px;
+    text-decoration: none;
+}
+.foot-txt{
+    color: #828282;
+}
